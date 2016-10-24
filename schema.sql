@@ -22,6 +22,14 @@ VALUES
 
 
 INSERT INTO task
-(owner, task_name, task_description, completed )
+(owner, task_name, task_description )
 VALUES 
-('brainyfarm', 'Clean Up', 'Washing of my bathroom as well as my room', 0);
+('brainyfarm', 'Clean Up', 'Washing of my bathroom as well as my room');
+
+INSERT INTO task
+(owner, task_name, task_description )
+VALUES 
+('brainyfarm', 'Read', 'Read the Way of the Superior Man');
+
+
+SELECT * FROM task WHERE owner='brainyfarm';
